@@ -1,5 +1,6 @@
 {
   "assets": [
+    "RVN",
     "NULS",
     "BNB",
     "NEO",
@@ -154,6 +155,28 @@
     "USDT"
   ],
   "markets": [
+    {
+      "pair": [
+        "BNB",
+        "RVN"
+      ],
+      "minimalOrder": {
+        "amount": 0.1,
+        "price": 0.00001,
+        "order": 1
+      }
+    },
+    {
+      "pair": [
+        "BTC",
+        "RVN"
+      ],
+      "minimalOrder": {
+        "amount": 1,
+        "price": 1e-8,
+        "order": 0.001
+      }
+    },
     {
       "pair": [
         "BNB",
